@@ -16,6 +16,9 @@
 		9322E5B42477B4A200AC59F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9322E5B22477B4A200AC59F6 /* LaunchScreen.storyboard */; };
 		9322E5BF2477B4A200AC59F6 /* AnimalRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322E5BE2477B4A200AC59F6 /* AnimalRecognizerTests.swift */; };
 		9322E5CA2477B4A200AC59F6 /* AnimalRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322E5C92477B4A200AC59F6 /* AnimalRecognizerUITests.swift */; };
+		9322E5DC2477CA5200AC59F6 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322E5DB2477CA5200AC59F6 /* ImageProvider.swift */; };
+		9322E5E22477DADD00AC59F6 /* CatDogUpdatable.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9322E5E12477DADD00AC59F6 /* CatDogUpdatable.mlmodel */; };
+		9362C15F2477FBE000EAAB5E /* MLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9362C15E2477FBE000EAAB5E /* MLManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		9322E5C52477B4A200AC59F6 /* AnimalRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9322E5C92477B4A200AC59F6 /* AnimalRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRecognizerUITests.swift; sourceTree = "<group>"; };
 		9322E5CB2477B4A200AC59F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9322E5DB2477CA5200AC59F6 /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		9322E5E12477DADD00AC59F6 /* CatDogUpdatable.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatDogUpdatable.mlmodel; sourceTree = "<group>"; };
+		9362C15E2477FBE000EAAB5E /* MLManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,10 @@
 				9322E5A72477B4A100AC59F6 /* SceneDelegate.swift */,
 				9322E5A92477B4A100AC59F6 /* FirstViewController.swift */,
 				9322E5AB2477B4A100AC59F6 /* SecondViewController.swift */,
+				9322E5DB2477CA5200AC59F6 /* ImageProvider.swift */,
+				9362C15E2477FBE000EAAB5E /* MLManager.swift */,
 				9322E5AD2477B4A100AC59F6 /* Main.storyboard */,
+				9322E5E12477DADD00AC59F6 /* CatDogUpdatable.mlmodel */,
 				9322E5B02477B4A200AC59F6 /* Assets.xcassets */,
 				9322E5B22477B4A200AC59F6 /* LaunchScreen.storyboard */,
 				9322E5B52477B4A200AC59F6 /* Info.plist */,
@@ -264,8 +273,11 @@
 			files = (
 				9322E5AC2477B4A100AC59F6 /* SecondViewController.swift in Sources */,
 				9322E5AA2477B4A100AC59F6 /* FirstViewController.swift in Sources */,
+				9322E5E22477DADD00AC59F6 /* CatDogUpdatable.mlmodel in Sources */,
 				9322E5A62477B4A100AC59F6 /* AppDelegate.swift in Sources */,
+				9322E5DC2477CA5200AC59F6 /* ImageProvider.swift in Sources */,
 				9322E5A82477B4A100AC59F6 /* SceneDelegate.swift in Sources */,
+				9362C15F2477FBE000EAAB5E /* MLManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
