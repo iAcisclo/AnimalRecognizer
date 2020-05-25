@@ -26,7 +26,7 @@ class MLManager {
         }
     }
     
-    func trainingData(image: UIImage, animalType: Animal ) throws -> MLBatchProvider {
+    private func trainingData(image: UIImage, animalType: Animal ) throws -> MLBatchProvider {
            
         var featureProviders: [MLDictionaryFeatureProvider] = []
         let inputName = "image"
@@ -44,7 +44,7 @@ class MLManager {
         return MLArrayBatchProvider(array: featureProviders)
     }
     
-    func updateModel(with trainingData: MLBatchProvider, completionHandler: @escaping (MLUpdateContext) -> Void) {
+    private func updateModel(with trainingData: MLBatchProvider, completionHandler: @escaping (MLUpdateContext) -> Void) {
         do {
             let updateTask = try MLUpdateTask(forModelAt: CatDogUpdatable.urlOfModelInThisBundle, trainingData: trainingData, configuration: nil, completionHandler: completionHandler)
             updateTask.resume()

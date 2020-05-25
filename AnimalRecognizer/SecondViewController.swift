@@ -33,7 +33,6 @@ class SecondViewController: UIViewController {
                 self.next(nil)
             }
         }
-        
     }
 }
 
